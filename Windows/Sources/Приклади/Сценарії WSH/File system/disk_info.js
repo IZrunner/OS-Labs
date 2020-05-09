@@ -1,0 +1,11 @@
+var FSO,d,TotalSize,FreeSpace,s;
+FSO = WScript.CreateObject("Scripting.FileSystemObject");
+d = FSO.GetDrive("N:");
+s = "Information about drive N:\n";
+s += "Serial number: " + d.SerialNumber + "\n";
+s += "Label: " + d.VolumeName + "\n";
+TotalSize = d.TotalSize/1024/1024;
+s += "Total size: " + TotalSize + "Mb\n";
+FreeSpace = d.FreeSpace/1024/1024;
+s += "Free space: " + FreeSpace + "Mb\n";
+WScript.Echo(s);

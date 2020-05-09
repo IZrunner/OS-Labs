@@ -1,0 +1,10 @@
+
+Today is : 25.2.2020
+It's 15:17:46 o'clock
+Current folder's size : 0.0034942626953125 megabytes
+There are : 9 files in this directory
+
+Today is : 25.2.2020
+It's 15:17:58 o'clock
+Current folder's size : 0.0036258697509765625 megabytes
+There are : 10 files in this directory
